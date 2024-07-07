@@ -1,0 +1,1 @@
+so this task was assigned to puja and in this we were returning undefined and nothing was getting updated in update call on backend hence she changed it to an empty array.

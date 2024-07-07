@@ -1,0 +1,5 @@
+- Enterprise can add multiple teams
+- Multiple users can be added in multiple teams according to bought limits as admin, editor or viewer.
+- Whenever a user signups it is assigned an organisation.
+- Organisation has all the attributes such as account limits(to add users),etc. feature permission is assigned in org so that even if user ownership changes the org still persists benefits.
+- Qr codes -> campaign -> type: website/form

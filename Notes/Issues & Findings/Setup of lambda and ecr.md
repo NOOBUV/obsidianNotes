@@ -1,0 +1,3 @@
+- first shell scripts are run to check if the ecr repository exists or not if it doesn't then we make one.
+- after that we build the image by tagging it using stage(prod or dev) and version, we can pass these variables through deploy_...yml files (these are github workflow files which helps in customising the environment)
+- serverless.yml file is used to set env variables, resources and set function for lambda to run.

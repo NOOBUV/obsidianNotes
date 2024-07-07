@@ -1,0 +1,7 @@
+- ### [[how lambda supports ecr images]]
+- #### [[Setup of lambda and ecr]]
+- #### Additional lambda settings
+	- Downloaded nltk libraries in /tmp directory of lambda (only /tmp in writable directory of lambda)
+	- Downloaded qr images from replicate url to local directory of lambda /tmp and then uploaded to s3 bucket.
+	- Pushed messages to slack using slack_url
+- #### [Github](https://github.com/utkarsh-vijay/StableDiffusedQr) [Google Doc](https://docs.google.com/document/d/1rnjQ2Kh-AZnMhBUtN9daZyCuXjE9Ov8yp6p-eWh9KHA/edit#heading=h.bcvenlzbx0f7)

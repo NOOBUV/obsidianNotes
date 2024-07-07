@@ -1,0 +1,5 @@
+So lambda's deployment package size has a limitation of 250mb. But it can run docker images upto 10gb in storage.
+So basically Lambda invokes your function in an [execution environment](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtime-environment.html). The execution environment provides a secure and isolated runtime environment that manages the resources required to run your function. Lambda re-uses the execution environment from a previous invocation if one is available, or it can create a new execution environment.
+So basically either lambda will give you runtime environment or you can give it runtime environment by deploying container images. Lambda does administrative and permission tasks over os and user have less modification access.
+When you are using lambda's runtime environment like (python3.x,node.js20.xx) you can only add deployment package worth 250mb more.
+But when you deploy docker the environment is setup on lambda's runtime environment which has memory upto 10 gb. So on the runtime it can easily run container image as generally no main code exceeds 250mb of storage.

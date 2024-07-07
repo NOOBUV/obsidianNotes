@@ -1,0 +1,1 @@
+- These are tests used for testing flows of the website they can be added to pipeline so everytime new code is built it runs and checks whether new code is breaking any website flow.
